@@ -12,7 +12,6 @@ class HomeController extends Controller
     {
         $data = [
             'title' => 'Гостевая книга на Laravel',
-            'pagetitle' => 'Гостевая книга'
         ];
         return view('pages.messages.index', $data);
     }
@@ -20,8 +19,8 @@ class HomeController extends Controller
     public function edit($id)
     {
         $data = [
-            'title' => 'Гостевая книга на Laravel',
-            'pagetitle' => 'Редактирование: Гостевая книга'
+            'title' => 'Редактирование: Гостевая книга на Laravel',
+            'pagetitle' => 'Гостевая книга'
         ];
         return view('pages.messages.edit', $data);
     }
